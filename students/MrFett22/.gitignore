@@ -1,0 +1,33 @@
+# Evitar archivos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icono en directorios
+Icon?
+
+# Archivos temporales de macOS
+._*
+.Spotlight-V100
+.Trashes
+
+# === Docker ===
+# Archivos de entorno (para variables sensibles)
+.env
+*.env
+
+# Carpeta oculta de Docker Compose
+.docker/
+
+# Archivos generados por volúmenes o datos persistentes
+docker-data/
+docker-volumes/
+
+# Logs y temporales
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos temporales creados por contenedores
+tmp/
